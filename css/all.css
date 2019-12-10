@@ -2,9 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header, footer {
-    
-
-
+    display: flex;
+    flex-direction: row;
 }
 header .profile-thumbnail {
     width: 50px;
@@ -12,15 +11,14 @@ header .profile-thumbnail {
     border-radius: 40px;
 } 
 header .profile-name {
-
-
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-left: 10px;
 }
 header .follow-btn {
-
-
+    display: flex;
+    align-items: center;
     margin: 0 0 0 auto;
 }
 header .follow-btn button {
@@ -29,7 +27,7 @@ header .follow-btn button {
     padding: 5px;
 }
 header h3, header h4 {
-
+    display: flex;
     margin: 0;
 }
 #inner p {
@@ -42,7 +40,7 @@ header h3, header h4 {
     opacity: 0.1;
 }
 footer .stats {
-
+    display: flex;
     font-size: 15px;
 }
 footer .stats strong {
